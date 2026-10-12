@@ -1,0 +1,12 @@
+/backups/
+/checks/
+/桌面弹簧玩偶/
+*.zip
+*.exe
+*.pdb
+*.tmp
+.vs/
+bin/
+obj/
+Thumbs.db
+Desktop.ini
