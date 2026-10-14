@@ -19,6 +19,10 @@
     <BodyTop>530</BodyTop>
     <BodyPixelWidth>466</BodyPixelWidth>
     <BodyPixelHeight>294</BodyPixelHeight>
+    <BlinkLeftMask>M 135,339 C 140,319 166,307 188,315 C 200,319 206,327 207,340 C 206,355 199,363 181,366 C 158,369 141,363 136,353 Z</BlinkLeftMask>
+    <BlinkRightMask>M 244,334 C 249,313 273,303 297,316 C 311,324 316,336 311,350 C 308,363 286,369 261,362 C 247,354 244,345 244,334 Z</BlinkRightMask>
+    <BlinkLeftLine>M 143,346 Q 167,359 198,344 M 146,347 L 141,342</BlinkLeftLine>
+    <BlinkRightLine>M 252,342 Q 279,358 307,341 M 304,343 L 312,337</BlinkRightLine>
   </SpriteSpec>
   <SpriteSpec>
     <Name>黑发猫耳</Name>
@@ -39,6 +43,10 @@
     <BodyTop>530</BodyTop>
     <BodyPixelWidth>420</BodyPixelWidth>
     <BodyPixelHeight>294</BodyPixelHeight>
+    <BlinkLeftMask />
+    <BlinkRightMask />
+    <BlinkLeftLine />
+    <BlinkRightLine />
   </SpriteSpec>
   <SpriteSpec>
     <Name>白发女仆</Name>
@@ -59,6 +67,10 @@
     <BodyTop>530</BodyTop>
     <BodyPixelWidth>434</BodyPixelWidth>
     <BodyPixelHeight>300</BodyPixelHeight>
+    <BlinkLeftMask>M 978,319 C 984,300 1006,294 1026,304 C 1037,316 1036,333 1024,340 C 1007,347 987,347 980,336 Z</BlinkLeftMask>
+    <BlinkRightMask>M 1083,301 C 1090,282 1117,279 1137,297 C 1146,312 1138,327 1121,333 C 1103,338 1086,329 1083,315 Z</BlinkRightMask>
+    <BlinkLeftLine>M 984,325 Q 1006,340 1028,324 M 988,327 L 982,320</BlinkLeftLine>
+    <BlinkRightLine>M 1090,313 Q 1110,328 1134,310 M 1130,313 L 1137,306</BlinkRightLine>
   </SpriteSpec>
   <SpriteSpec>
     <Name>紫发少女</Name>
@@ -79,5 +91,9 @@
     <BodyTop>530</BodyTop>
     <BodyPixelWidth>444</BodyPixelWidth>
     <BodyPixelHeight>300</BodyPixelHeight>
+    <BlinkLeftMask>M 1468,317 C 1471,299 1494,297 1511,309 C 1521,325 1513,341 1495,347 C 1478,350 1470,340 1468,329 Z</BlinkLeftMask>
+    <BlinkRightMask>M 1547,300 C 1557,278 1600,277 1615,298 C 1621,315 1606,335 1587,336 C 1564,339 1549,328 1547,316 Z</BlinkRightMask>
+    <BlinkLeftLine>M 1475,331 Q 1493,344 1513,328 M 1479,333 L 1472,325</BlinkLeftLine>
+    <BlinkRightLine>M 1557,314 Q 1583,329 1609,310 M 1605,313 L 1613,306</BlinkRightLine>
   </SpriteSpec>
 </ArrayOfSpriteSpec>

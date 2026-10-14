@@ -11,7 +11,7 @@ $arguments = @('/nologo', '/target:winexe', '/optimize+', '/platform:anycpu',
     "/resource:$taskRoot\assets\sprites.xml,sprites.xml",
     "/reference:$wpf\PresentationFramework.dll", "/reference:$wpf\PresentationCore.dll", "/reference:$wpf\WindowsBase.dll",
     '/reference:System.Xaml.dll', '/reference:System.Windows.Forms.dll', '/reference:System.Drawing.dll',
-    "$PSScriptRoot\Bobbleheads.cs")
+    "$PSScriptRoot\Bobbleheads.cs", "$PSScriptRoot\RuntimeSupport.cs", "$PSScriptRoot\AssemblyInfo.cs")
 & $compiler $arguments
 if ($LASTEXITCODE -ne 0) { throw 'Build failed.' }
 Copy-Item -LiteralPath (Join-Path $taskRoot 'docs\使用说明.txt') -Destination $outputDirectory -Force
